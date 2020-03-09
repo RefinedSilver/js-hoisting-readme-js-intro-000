@@ -6,13 +6,15 @@ function callMe() {
   console.log("so call me");
   return lyric;
 }
-thisIsCrazy();
+
+var thisIsCrazy = function (){
+  // fix the code in here:
+  console.log("hey!!!")
 function crazy() {
-  var thisIsCrazy = function (){
-    // fix the code in here:
-    console.log("hey!!!")
+
 
   }
+  thisIsCrazy();
 }
 
 function sayMyName() {
@@ -20,7 +22,6 @@ function sayMyName() {
   var name = "Kristin";
 console.log(name);
   function sayMy() {
-
     var name = "Cricky";
     sayMy();
   }
