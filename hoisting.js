@@ -11,8 +11,6 @@ var thisIsCrazy = function (){
   // fix the code in here:
   console.log("hey!!!")
 function crazy() {
-
-
   }
   thisIsCrazy();
 }
